@@ -1,15 +1,19 @@
 {
-	"name": "scratch-extension",
-	"version": "0.0.0",
+	"name": "scratch-dot-prop",
+	"version": "0.1.0",
 	"private": true,
 	"main": "index.js",
-	"repository": "https://github.com/Richienb/scratch-extension.git",
+	"repository": "https://github.com/Richienb/scratch-dot-prop.git",
 	"author": "Richie Bendall <richiebendall@gmail.com>",
 	"license": "MIT",
 	"scripts": {
 		"watch": "scratcher watch",
 		"build": "scratcher build",
 		"lint": "xo"
+	},
+	"dependencies": {
+		"dot-prop": "^5.2.0",
+		"json-parse-even-better-errors": "^2.3.0"
 	},
 	"devDependencies": {
 		"@types/scratch-env": "^3.0.0",
