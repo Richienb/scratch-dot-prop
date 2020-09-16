@@ -3,7 +3,7 @@
 import dotProp from "dot-prop"
 import parseJson from "json-parse-even-better-errors"
 
-class ExampleExtension implements ScratchExtension {
+class ScratchDotProp implements ScratchExtension {
 	getInfo(): ExtensionMetadata {
 		return {
 			id: "DotProp",
@@ -97,4 +97,4 @@ class ExampleExtension implements ScratchExtension {
 	}
 }
 
-Scratch.extensions.register(new ExampleExtension())
+Scratch.extensions.register(new ScratchDotProp())
