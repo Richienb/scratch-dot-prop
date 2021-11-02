@@ -46,7 +46,7 @@ class ScratchDotProp implements ScratchExtension {
 				}
 			}, {
 				opcode: "has",
-				blockType: Scratch.BlockType.REPORTER,
+				blockType: Scratch.BlockType.BOOLEAN,
 				text: "Does [object] contain [path]",
 				arguments: {
 					object: {
